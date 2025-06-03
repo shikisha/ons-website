@@ -21,7 +21,7 @@ const ServiceCard = ({ title, description, icon, index }) => {
         <div className={`flip-card-back flex flex-col justify-center items-center shadow-md ${cardColor}`}>
           <h3 className=" font-bold">{title}</h3>
           <p className="text-sm mt-2 text-center">{description}</p>
-          <p className="text-pink-500 text-sm mt-2">READ MORE</p>
+          {/* <p className="text-pink-500 text-sm mt-2">READ MORE</p> */}
         </div>
       </div>
     </div>
