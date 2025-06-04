@@ -1,6 +1,5 @@
 // components/ServiceCard.js
 import React from 'react';
-import './ServiceCard.css'; // include CSS for flip effect
 
 const ServiceCard = ({ title, description, icon, index }) => {
   const columns = 4;
