@@ -12,6 +12,15 @@ module.exports = {
         wind: ['"WindSong"', 'cursive'],
         ruthie: ['"Ruthie"', 'cursive'],
       },
+      animation: {
+        'marquee-right': 'marquee-right 15s linear infinite',
+      },
+      keyframes: {
+        'marquee-right': {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      }
     },
   },
   plugins: [],
