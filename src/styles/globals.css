@@ -61,3 +61,7 @@ html {
 .flip-card-back {
   transform: rotateY(180deg);
 }
+
+.group:hover .group-hover\:rotate-y-180 {
+  transform: rotateY(180deg);
+}

@@ -38,7 +38,7 @@ export default function Navbar() {
   return (
     <header className="bg-white shadow sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-        <Link href="/"><img src="/logo.png" width={100} height={100} /></Link>
+        <Link href="/"><img src="/logo.png" width={70} height={40} /></Link>
 
         <nav className="space-x-6 hidden md:flex">
           <a href="#services" className={linkStyle("services")}>Services</a>
